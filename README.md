@@ -4,7 +4,7 @@
 
 ## Live Demo
 
-[https://scagairex.vercel.app](https://scagairex.vercel.app)
+[https://scagairex.genomicx.org](https://scagairex.genomicx.org)
 
 ## What it does
 
@@ -68,3 +68,12 @@ GPL-3.0-only
 ## Author
 
 [Nabil-Fareed Alikhan](https://www.happykhan.com) — Centre for Genomic Pathogen Surveillance, University of Oxford
+
+## Cloudflare Pages
+
+The production site is [scagairex.genomicx.org](https://scagairex.genomicx.org).
+Use Node.js 24 (see `.nvmrc` and `.node-version`). Build with `npm run build`,
+then deploy `dist` to the `scagairex` Pages project with `npx wrangler pages deploy`.
+Both production and preview environments use `NODE_VERSION=24`.
+The species database is bundled at `/species_to_genes.tsv`; no backend or special
+cross-origin headers are required.

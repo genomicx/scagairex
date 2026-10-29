@@ -5,13 +5,13 @@
   "type": "module",
   "license": "GPL-3.0-only",
   "author": "Nabil-Fareed Alikhan <nabil@happykhan.com> (https://www.happykhan.com)",
-  "homepage": "https://scagairex.vercel.app",
+  "homepage": "https://scagairex.genomicx.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/happykhan/scagairex.git"
+    "url": "https://github.com/genomicx/scagairex.git"
   },
   "bugs": {
-    "url": "https://github.com/happykhan/scagairex/issues"
+    "url": "https://github.com/genomicx/scagairex/issues"
   },
   "keywords": [
     "scagairex",
@@ -33,6 +33,7 @@
     "check": "vitest run && eslint . && npm run build"
   },
   "dependencies": {
+    "@genomicx/ui": "^0.10.1",
     "file-saver": "^2.0.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
